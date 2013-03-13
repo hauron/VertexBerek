@@ -1,0 +1,8 @@
+
+NUMMODELS 1
+NUMINSTANCES 1
+
+// modele
+#0 - data/models/architektura/glowna_parter_budowa.txt podloga_glownego_budynku
+
+#0 - 0, (0, 0, 0), (1, 1, 1), (0, 0, 0), 1, n

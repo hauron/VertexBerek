@@ -1,0 +1,22 @@
+
+NUMPOLLIES 4
+//x = 0,1520034 - te poczworne, betonowe cos pomiedzy oknami
+
+// pierwsze betonowe kafle (pierwsze - od lewej zawsze)
+ 1.7653311  0  0 0 4
+ 1.7653311  0.616  0 0 0
+ 1.9173345 0.616  0 1 0
+6
+ 1.9173345  0.616  0 1 0
+ 1.9173345  0  0 1 4
+ 1.7653311  0  0 0 4
+6
+// drugie betonowe kafle
+ 3.6826656  0  0 0 4
+ 3.6826656  0.616  0 0 0
+ 3.8346690  0.616  0 1 0
+6
+ 3.8346690  0.616  0 1 0
+ 3.8346690  0  0 1 4
+ 3.6826656  0  0 0 4
+6
