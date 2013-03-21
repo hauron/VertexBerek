@@ -1,3 +1,0 @@
-
-// swiatla latarni pierwszej - tej najbardziej testowej ;)
-pos: (10.0, 6.0, -3.0, 1.0), colours: (0.1, 0.5, 0.1, 1.0)

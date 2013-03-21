@@ -1,8 +1,0 @@
-
-
-
-// plik przesuwania dla drzwi ;-)
-#50, (0.0, 0.0, 0.5) - A[-0.2, -0.9, -3.3], B[1.6, -0.4, -2.8], 0 
-music_file = data/sound/door_open.wav
-sound_buffer = 1
-
