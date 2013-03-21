@@ -1,0 +1,31 @@
+NUMMODELS 7
+NUMINSTANCES 14
+
+// modele
+#0 - data/models/wejscie.txt wejscie
+#1 - data/models/architektura/schodek.txt schodek
+#2 - data/models/architektura/murek1.txt murek
+#3 - data/models/architektura/schodek_szeroki.txt schodek_szeroki
+#4 - data/models/sprzet/kosz1.txt kosz
+#5 - data/models/sprzet/stojak_rowerowy.txt stojak_rowerowy
+#6 - data/models/sprzet/skrzynki.txt szare_skrzynie
+
+// instancje - wystapienia modeli
+#0 - 0, (0, 0, 0), (1, 1, -1), (0, 0, 0), 1, n
+#1 - 1, (0.3, 0.21, 0.9), (1, 1, -1), (0, 0, 0), 1, n
+#2 - 1, (0.3, 0.27, 1.35), (1, 1, -1), (0, 0, 0), 1, n
+#3 - 1, (0.3, 0.33, 1.75), (1, 1, -1), (0, 0, 0), 1, n
+#4 - 3, (0.3, 0.39, 2.418), (1, 1, -1), (0, 0, 0), 1, n
+#5 - 2, (0.0, 0.0, 0), (1, 1, -1), (0, 0, 0), 1, n
+#6 - 3, (0.3, 0.45, 2.568), (1, 1, -1), (0, 0, 0), 1, n
+#7 - 3, (0.3, 0.51, 2.718), (1, 1, -1), (0, 0, 0), 1, n
+#9 - 5, (0.86, 0, 0.2), (1, 1, 1), (0, -90, 0), 1, n
+#10 - 5, (1.5, 0, 0.2), (1, 1, 1), (0, -90, 0), 1, n
+#11 - 4, (-0.32, 0, 0.72), (1, 1, 1), (0, 0, 0), 1, n
+
+#12 - 6, (-0.93, 0.5473, 3.95), (1, 1.1, 1), (0, 0, 0), 1, n
+#13 - 6, (-1.191, 0.639, 3.95), (1, 1, 1), (0, 0, 0), 1, n
+
+#14 - 6, (-3, 0, 0.3), (1, 1, 1), (0, 90, 0), 1, n
+#15 - 6, (-2.37, 0, 0.3), (1, 1, 1), (0, 90, 0), 1, n
+#16 - 5, (-0.42, 0, -1.74), (1, 1, 1), (0, 0, 0), 1, n
