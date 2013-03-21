@@ -1,0 +1,18 @@
+Na_zewnatrz
+NUMSECTORS 13
+
+#0 - (0.0, 0.0, 0.0), (1.0, 1.0, 1.0), data/sector_schodyL.txt wejscie_lewe 0.0
+#1 - (4.65f, 0.0f, 8.06f), (1.0f, 1.0f, 1.0f), data/sector_schodyP.txt wejscie_prawe 60.0f
+#2 - (0, 0.0, 0), (1, 1, 1), data/sector_szyby_parter.txt szyby_i_budynki 0.0f
+#3 - (-5.99, 0.0, 0), (1, 1, 1), data/sector_szyby_parter.txt szyby_i_budynki 0.0f
+#4 - (4.145, 0.0, 8.9347), (1, 1, 1), data/sector_szyby_parter.txt szyby_i_budynki -120.0f
+#5 - (1.15, 0.0, 14.122), (1, 1, 1), data/sector_szyby_parter.txt szyby_i_budynki -120.0f
+#6 - (0, 0, 0), (1, 1, 1), data/sector_filtry.txt szare_filtry 0.0f
+#7 - (4.65, 0.0, 8.06), (1, 1, -1), data/sector_filtry.txt szare_filtry 60.0f
+#8 - (-0.55, 0, 2.77), (1, 1, 1), data/srodek_sector.txt srodek 30.0f
+#9 - (0, 0, 0), (1, 1, 1), data/sector_szatnia_biblioteki.txt biblioteka_i_szatnia 0.0f
+#10 - (-5.13, 0.57, 6), (1, 1, 1), data/sector_glowna_parter.txt glowny_hol 30.0f
+#11 - (0, 0.0, 0.0), (1, 1, 1), data/sector_budynek.txt xx 0.0f
+#12 - (0, 0.0, 0.0), (1, 1, 1), data/sector_tresc_zewnatrz.txt elementy_zewnetrze_chodnik_lawki 0.0f
+
+6.74, 0, 5.82

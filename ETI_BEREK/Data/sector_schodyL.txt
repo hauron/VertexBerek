@@ -1,0 +1,146 @@
+
+NUMMODELS 25
+NUMINSTANCES 72
+
+// modele
+#0 - data/models/wejscie.txt wejscie
+#1 - data/models/architektura/schodek.txt schodek
+#2 - data/models/architektura/murek1.txt murek
+#3 - data/models/architektura/schodek_szeroki.txt schodek_szeroki
+#4 - data/models/szczyt.txt szczyt
+#5 - data/models/sprzet/kosz1.txt kosz
+#6 - data/models/sprzet/stojak_rowerowy.txt stojak_rowerowy
+#7 - data/models/sprzet/lawka1.txt lawka
+#8 - data/models/drzwi_okna/drzwi_przesuwane.txt przesuwacz_kurwa
+#9 - data/models/sprzet/wiszaca_czujka_drzwi.txt czujka
+#10 - data/models/architektura/schodki_wewnatrz.txt schody_kolo_windy
+#11 - data/models/tablice_informacyjne/tablica_parterP.txt tablica_parterP
+#12 - data/models/drzwi_okna/winda_drzwi.txt drzwi_windy
+#13 - data/models/sprzet/skrzynki.txt skrzynie
+#14 - data/models/sprzet/przeciw_pozarowy.txt przeciw_pozarowy_symbol
+#15 - data/models/drzwi_okna/drzwi_wewnetrzne_szare.txt wewnetrzne_szare_drzwi
+#16 - data/models/drzwi_okna/szyba_waska.txt szyba!
+#17 - data/models/drzwi_okna/rama_okien_wewnatrz_schody.txt rama_wewnatrz_budynku_okien_na_schodach
+#18 - data/models/tablice_informacyjne/tablica_zlota_eti.txt zlota_tablica_info_UE
+#19 - data/models/architektura/sufit_schody_boczne.txt sufit_klatki_bocznej
+#20 - data/models/architektura/sciany_schody_boczne_polpoziomy.txt swoiste_sciany_polpoziomow
+#21 - data/models/architektura/korytarz_laby.txt korytarz_laby
+#22 - data/models/architektura/korytarz_sale.txt korytarz_sale
+#23 - data/models/drzwi_okna/drzwi_sala_cwiczen.txt drzwi_od_sali_cwiczeniowej
+#24 - data/models/architektura/sala_cwiczen1.txt sala_cwiczeniowa_NE
+
+// instancje - wystapienia modeli
+
+#0 - 0, (0, 0, 0), (1, 1, 1), (0, 0, 0), 1, n
+#1 - 1, (0.3, 0.21, 0.9), (1, 1, 1), (0, 0, 0), 1, n
+#2 - 1, (0.3, 0.27, 1.35), (1, 1, 1), (0, 0, 0), 1, n
+#3 - 1, (0.3, 0.33, 1.75), (1, 1, 1), (0, 0, 0), 1, n
+#4 - 3, (0.3, 0.39, 2.418), (1, 1, 1), (0, 0, 0), 1, n
+#5 - 2, (0.0, 0.0, 0), (1, 1, 1), (0, 0, 0), 1, n
+#6 - 3, (0.3, 0.45, 2.568), (1, 1, 1), (0, 0, 0), 1, n
+#7 - 3, (0.3, 0.51, 2.718), (1, 1, 1), (0, 0, 0), 1, n
+#8 - 4, (0, 0, 0), (1, 1, 1), (0, 0, 0), 1, n
+#9 - 5, (-0.9, 0.57, 5), (1, 1, 1), (0, 30, 0), 1, n
+#10 - 5, (-0.9, 0.57, 4.18), (1, 1, 1), (0, 30, 0), 1, n
+#11 - 6, (-1.5, 0, 0.2), (1, 1, 1), (0, -90, 0), 1, n
+#12 - 6, (-2.14, 0, 0.2), (1, 1, 1), (0, -90, 0), 1, n
+#13 - 5, (-0.32, 0, -0.86), (1, 1, 1), (0, 0, 0), 1, n
+#14 - 7, (1, 0, -1.74), (1, 1, 1), (0, 0, 0), 1, n
+
+#15 - 8, (-0.67, 0.38, 2.801), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwanie_drzwi.txt
+
+#16 - 9, (-0.82, 1.05, 2.8), (1, 1, 1), (0, 0, 0), 1, n
+#17 - 10, (-3, 0.519334, 3.45), (1, 1, 1), (0, 0, 0), 1, n
+#18 - 10, (1.7, 1.2795, -3.37), (-1, 1, -1), (0, 0, 0), 1, n
+#19 - 10, (-3, 2.039666, 3.45), (1, 1, 1), (0, 0, 0), 1, n
+#20 - 10, (1.7, 2.799832, -3.37), (-1, 1, -1), (0, 0, 0), 1, n
+#21 - 10, (-3, 3.559998, 3.45), (1, 1, 1), (0, 0, 0), 1, n
+#22 - 10, (1.7, 4.320164, -3.37), (-1, 1, -1), (0, 0, 0), 1, n
+#23 - 11, (-3.999, 1.28, 3.6), (1, 1, 1), (0, 0, 0), 1, n
+
+#24 - 12, (-3.0, 0.57, 4.26), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL1A.txt
+
+#25 - 12, (-3.0, 0.57, 4.462), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL1B.txt
+
+#26 - 13, (-1.191, 0.639, 3.95), (1, 1, 1), (0, 0, 0), 1, n
+#27 - 14, (-3.999, 1.15, 3.45), (1, 1, 1), (0, 0, 0), 1, n
+#28 - 15, (-4, 0.59, 4.8), (1, 1, 1), (0, 0, 0), 1, n
+#29 - 15, (-4, 0.59, 2.765), (1, 1, 1), (0, 0, 0), 1, n
+
+#30 - 17, (-1.14, 1.28, 2.8), (1, 1, 1), (0, 0, 0), 1, n
+#31 - 17, (-1.14, 1.485, 2.8), (1, 1, 1), (0, 0, 0), 1, n
+#32 - 17, (-1.14, 1.69, 2.8), (1, 1, 1), (0, 0, 0), 1, n
+
+#33 - 16, (-1.147, 5.2, 0.692), (1, 0.25, 4.075), (0, 0, 0), 1, n
+#34 - 16, (-1.147, 6.01, 0.692), (1, 0.25, 4.075), (0, 0, 0), 1, n
+#35 - 16, (-1.147, 6.82, 0.692), (1, 0.25, 4.075), (0, 0, 0), 1, n
+
+#36 - 18, (-0.495, 0.83, -2), (1, 1, 1), (0, 0, 0), 1, n
+
+// sufit klatki
+#37 - 19, (0, 0, 0), (1, 1, 1), (0, 0, 0), 1, n
+#38 - 19, (0, 1.521, 0), (1, 1, 1), (0, 0, 0), 1, n
+#39 - 19, (0, 3.04, 0), (1, 1, 1), (0, 0, 0), 1, n
+#40 - 19, (0, 4.562, 0), (1, 1, 1), (0, 0, 0), 1, n
+
+// sciany na klatce
+#41 - 20, (0, 1.521, 0), (1, 1, 1), (0, 0, 0), 1, n
+#42 - 20, (0, 3.041, 0), (1, 1, 1), (0, 0, 0), 1, n
+#43 - 20, (0, 4.562, 0), (1, 1, 1), (0, 0, 0), 1, n
+
+// pietro 1
+#44 - 15, (-4, 1.979, 4.8), (1, 1.040635, 1), (0, 0, 0), 1, n
+#45 - 15, (-4, 1.979, 2.765), (1, 1.040635, 1), (0, 0, 0), 1, n
+
+//pietro 2
+#46 - 15, (-4, 3.44, 4.8), (1, 1.040635, 1), (0, 0, 0), 1, n
+#47 - 15, (-4, 3.44, 2.765), (1, 1.040635, 1), (0, 0, 0), 1, n
+
+//pietro 3
+#48 - 15, (-4, 4.9, 4.8), (1, 1.040635, 1), (0, 0, 0), 1, n
+#49 - 15, (-4, 4.9, 2.765), (1, 1.040635, 1), (0, 0, 0), 1, n
+
+// laby 1
+#50 - 21, (-4, 1.96, 4.8), (1, 1.040635, 1), (0, 0, 0), 1, n
+#51 - 21, (-4, 3.421, 4.8), (1, 1.040635, 1), (0, 0, 0), 1, n
+// sale 1
+#52 - 22, (-4, 1.96,-3.2), (1, 1.040635, 1), (0, 0, 0), 1, n
+#53 - 22, (-4, 3.42,-3.2), (1, 1.040635, 1), (0, 0, 0), 1, n
+
+// drzwi pietra1
+#54 - 23, (-2.55, 1.96, -2.2), (1, 1.040635, -1), (0, 0, 0), 1, n
+#55 - 23, (-2.55, 1.96, -0.35), (1, 1.040635, -1), (0, 0, 0), 1, n
+#56 - 23, (-2.55, 1.96, 1.5), (1, 1.040635, -1), (0, 0, 0), 1, n
+
+#57 - 23, (4.46, 1.96, -2.2), (-1, 1.040635, -1), (0, 0, 0), 1, n
+#58 - 23, (4.46, 1.96, -0.35), (-1, 1.040635, -1), (0, 0, 0), 1, n
+#59 - 23, (4.46, 1.96, 1.5), (-1, 1.040635, -1), (0, 0, 0), 1, n
+
+// drzwi pietra2
+#60 - 23, (-2.55, 3.42, -2.2), (1, 1.040635, -1), (0, 0, 0), 1, n
+#61 - 23, (-2.55, 3.42, -0.35), (1, 1.040635, -1), (0, 0, 0), 1, n
+#62 - 23, (-2.55, 3.42, 1.5), (1, 1.040635, -1), (0, 0, 0), 1, n
+
+#63 - 23, (4.46, 3.42, -2.2), (-1, 1.040635, -1), (0, 0, 0), 1, n
+#64 - 23, (4.46, 3.42, -0.35), (-1, 1.040635, -1), (0, 0, 0), 1, n
+#65 - 23, (4.46, 3.42, 1.5), (-1, 1.040635, -1), (0, 0, 0), 1, n
+
+// windy na pietrze
+#66 - 12, (-3.0, 2.035, 4.26), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL2A.txt
+#67 - 12, (-3.0, 2.035, 4.462), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL2B.txt
+
+// windy na drugim pietrze
+#68 - 12, (-3.0, 3.56, 4.26), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL3A.txt
+#69 - 12, (-3.0, 3.56, 4.462), (1, 1, 1), (0, 0, 0), 0, m
+data/actions/action_przesuwania_windaL3B.txt
+
+// buforowa sala - do poprawienia okien
+#70 - 22, (-4, 4.883,-3.2), (1, 1.040635, 1), (0, 0, 0), 1, n
+
+#71 - 24, (-3, 3.56,0.3), (1, 1, 1), (0, 0, 0), 1, n
